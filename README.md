@@ -14,11 +14,7 @@ The r-squared value is 0.68, meaning roughly 68% of all predictions will be corr
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-<<<<<<< HEAD
-The p-value of our linear regression analysis is 6.712e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, meaning the slope of our linear model is not zero.
-=======
 The p-value of our linear regression analysis is 6.712e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can say there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
->>>>>>> 634852da4e5a425150bfeaa14e6e3c7378724409
 
 Summary Statistics on Suspension Coils (Deliverable 2)
 
@@ -26,12 +22,11 @@ Summary Statistics on Suspension Coils (Deliverable 2)
 
 ![lot_summary](https://user-images.githubusercontent.com/100803302/173189825-dadafac4-15e0-4301-b710-6da027f47fb2.png)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
-<<<<<<< HEAD
 The current manufacturing data meets this design specification for all manufacturing lots in total. Individually, lots 1 and 2 meet the specification, but lot 3 does not.
 
 T-Tests on Suspension Coils (Deliverable 3)
+
+![Deliverable 3](https://user-images.githubusercontent.com/100803302/173207453-9f39dc95-fb4f-4f35-911d-f578534faa06.png)
 
 When looking at the entire population of the production lot, the variance of the coils is within the 100 PSI variance requirement.
 
@@ -53,6 +48,3 @@ A one-way ANOVA could be used because it best tests the means of a single depend
 
 What data is needed to run the statistical test?  Needed data includes vehicle manufacturer, model, class, cost, and engine size.
 
-=======
-Using our visualization in combination with our calculated p-value and r-squared value, we have determined there is a significant relationship between ground_clearance and mpg. R-squared:  0.7119,	Adjusted R-squared:  0.6791 suggest a strong correlation and the P-value lower than 0.05, suggest strong correlation and prediction as expalined in more detail in Deliverable 1. PSi distribution is normal since P-value is way less than 0.05. Our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
->>>>>>> 634852da4e5a425150bfeaa14e6e3c7378724409
