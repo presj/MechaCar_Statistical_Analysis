@@ -3,7 +3,6 @@ MechaCar_Statistical_Analysis
 Linear Regression to Predict MPG (Deliverable 1)
 
 ![Deliverable 1](https://user-images.githubusercontent.com/100803302/173189718-96203467-71d1-43b4-9373-e8ad10b88f33.png)
-
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 Ground clearance, mpg, and intercept are statistically unlikely to provide random amounts of variance to the linear model. When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in quarter-mile time that have not been included in our model. These variables may or may not be within our dataset and may still need to be collected or observed.
